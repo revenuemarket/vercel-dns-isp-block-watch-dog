@@ -4,7 +4,6 @@ name: DNS Check
 on:
   schedule:
     - cron: '*/3 * * * *'
-    - cron: '2-59/5 * * * *'
   workflow_dispatch:
 
 jobs:
